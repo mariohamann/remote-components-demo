@@ -1,7 +1,6 @@
 {
   "title": "CTA",
   "type": "object",
-  "id": "cta",
   "properties": {
     "text": {
       "type": "string"
