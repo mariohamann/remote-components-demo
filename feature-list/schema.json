@@ -1,0 +1,28 @@
+{
+  "type": "array",
+  "format": "table",
+  "title": "Feature List",
+  "uniqueItems": true,
+  "items": {
+    "type": "object",
+    "title": "Feature",
+    "properties": {
+      "icon": {
+        "type": "string",
+        "enum": [
+          "check",
+          "cross",
+          "question"
+        ],
+        "default": "check"
+      },
+      "title": {
+        "type": "string"
+      },
+      "content": {
+        "type": "string",
+        "format": "textarea"
+      }
+    }
+  }
+}

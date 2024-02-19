@@ -1,0 +1,21 @@
+{
+  "title": "CTA",
+  "type": "object",
+  "id": "cta",
+  "properties": {
+    "text": {
+      "type": "string"
+    },
+    "button": {
+      "type": "object",
+      "properties": {
+        "href": {
+          "type": "string"
+        },
+        "text": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
