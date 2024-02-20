@@ -12,13 +12,8 @@
         "title": "Feature",
         "properties": {
           "icon": {
-            "type": "string",
-            "enum": [
-              "check",
-              "cross",
-              "question"
-            ],
-            "default": "check"
+            "type": "boolean",
+            "default": "true"
           },
           "title": {
             "type": "string"
