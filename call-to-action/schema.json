@@ -2,7 +2,7 @@
   "title": "CTA",
   "type": "object",
   "properties": {
-    "text": {
+    "additional": {
       "type": "string"
     },
     "button": {
